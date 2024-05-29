@@ -137,20 +137,20 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 **Everything else:**
 
-[1] [ProMED](https://promedmail.org/)
+* [1] [ProMED](https://promedmail.org/)
 
-[2] [HealthMap](https://www.healthmap.org/)
+* [2] [HealthMap](https://www.healthmap.org/)
 
-[3] [World Health Organization (WHO)](https://www.who.int/)
+* [3] [World Health Organization (WHO)](https://www.who.int/)
 
-[4] [National Institutes of Health (NIH)](https://www.nih.gov/)
+* [4] [National Institutes of Health (NIH)](https://www.nih.gov/)
 
-[5] [Global Health Security Agenda (GHSA)](https://www.ghsagenda.org/)
+* [5] [Global Health Security Agenda (GHSA)](https://www.ghsagenda.org/)
 
-[6] [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/)
+* [6] [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/)
 
-[7] [Johns Hopkins University - Center for Health Security](https://www.centerforhealthsecurity.org/)
+* [7] [Johns Hopkins University - Center for Health Security](https://www.centerforhealthsecurity.org/)
 
-[8] [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/)
+* [8] [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/)
 
 
