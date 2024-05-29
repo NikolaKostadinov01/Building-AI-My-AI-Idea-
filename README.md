@@ -129,28 +129,28 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 **For the programming part:**
 
-* [1] [Python: The Python Software Foundation. (n.d.).](https://www.python.org/)
+* [1] [Python: The Python Software Foundation. (n.d.);](https://www.python.org/)
   
-* [2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.](https://scikit-learn.org/)
+* [2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830;](https://scikit-learn.org/)
   
 * [3] [Isolation Forest algorithm: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining (pp. 413-422). IEEE. doi:10.1109/ICDM.2008.17.](http://www.lamda.nju.edu.cn/publication/icdm08b.pdf)
 
 **Everything else:**
 
-* [1] [ProMED](https://promedmail.org/)
+* [1] [ProMED;](https://promedmail.org/)
 
-* [2] [HealthMap](https://www.healthmap.org/)
+* [2] [HealthMap;](https://www.healthmap.org/)
 
-* [3] [World Health Organization (WHO)](https://www.who.int/)
+* [3] [World Health Organization (WHO);](https://www.who.int/)
 
-* [4] [National Institutes of Health (NIH)](https://www.nih.gov/)
+* [4] [National Institutes of Health (NIH);](https://www.nih.gov/)
 
-* [5] [Global Health Security Agenda (GHSA)](https://www.ghsagenda.org/)
+* [5] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
 
-* [6] [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/)
+* [6] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
 
-* [7] [Johns Hopkins University - Center for Health Security](https://www.centerforhealthsecurity.org/)
+* [7] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
 
-* [8] [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/)
+* [8] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
 
 
