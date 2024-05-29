@@ -1,15 +1,3 @@
-# **Elements of AI - Course Series**
-
-**Building AI - Course**
-
-**My AI Idea**
-
-University of Helsinki, FI
-
-**[Course page](https://buildingai.elementsofai.com/)**
-
-# **Project Report**
-
 # **BlindSight: AI-Powered Bio-Surveillance Solution**
 
 ## **Summary:**
@@ -18,7 +6,7 @@ BlindSight is an advanced bio-surveillance system empowered by artificial intell
 ## **Background:**
 In an increasingly interconnected world, the threat of infectious diseases and bioterrorism demands proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, leading to delays in detection and response. BlindSight addresses these challenges by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The urgency of this topic is underscored by the now stagnant COVID-19 pandemic and the ever-present risk of bioterrorism incidents.
 
-## **System Usage:**
+## **How is it used?**
 BlindSight serves as a critical tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize BlindSight to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly in diverse environments and situations, facilitating timely response and containment efforts in the face of emerging health threats.
 
 # **Prototype System Implementation**
@@ -107,10 +95,10 @@ main()
 
 * **Alert Generation:** Detected anomalies are flagged as potential health threats, and appropriate actions, such as alerting relevant stakeholders or triggering response protocols, can be initiated based on the severity of the anomalies.
 
-* **Data Sources and AI Methods:** BlindSight relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
+## **Data Sources and AI Methods:**
+BlindSight relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
 
 ## **Challenges**
-
 BlindSight faces several challenges in its implementation and deployment.
 
 * **Data Integration:** Ensuring seamless integration of data from disparate sources while maintaining data quality and integrity.
