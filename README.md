@@ -10,7 +10,7 @@ University of Helsinki, FI
 
 # **Project Report**
 
-**BlindSight: AI-Powered Bio-Surveillance Solution**
+# **BlindSight: AI-Powered Bio-Surveillance Solution**
 
 **Summary:**
 BlindSight is an advanced bio-surveillance system empowered by artificial intelligence, aimed at early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, BlindSight provides actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
