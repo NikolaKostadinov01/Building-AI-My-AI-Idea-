@@ -119,7 +119,8 @@ BlindSight faces several challenges in its implementation and deployment.
 
 * **Ethical Considerations:** Addressing privacy concerns and ensuring ethical use of sensitive health data in compliance with regulations and standards.
 
-## Summary: BlindSight is an AI-driven bio-surveillance system. It leverages advanced data analytics and machine learning algorithms, such as the Isolation Forest, to detect anomalies in health-related data for early identification of potential public health threats. The system offers actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
+## Summary: 
+BlindSight is an AI-driven bio-surveillance system. It leverages advanced data analytics and machine learning algorithms, such as the Isolation Forest, to detect anomalies in health-related data for early identification of potential public health threats. The system offers actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
 
 # **What's Next?**
 BlindSight has the potential to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technology infrastructure will be key to realizing BlindSight's full potential in safeguarding public health and national security.
