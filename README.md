@@ -11,7 +11,7 @@ In an increasingly interconnected world, the threat of infectious diseases and b
 ## How is it used?
 BlindSight serves as a critical tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize BlindSight to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly in diverse environments and situations, facilitating timely response and containment efforts in the face of emerging health threats.
 
-# **Prototype System Implementation**
+## Prototype System Implementation
 
 BlindSight's prototype system is built using Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
 
@@ -73,7 +73,7 @@ print("Detected anomalies:", anomalies)
 if __name__ == "__main__":
 main()
 ```
-# **System Explanation**
+## System Explanation
 
 1. **Data Preprocessing:**
 * **Missing Value Handling:** The data is preprocessed to handle missing values using mean imputation. This ensures that missing values are replaced with the mean value of the respective feature.
@@ -87,7 +87,7 @@ main()
 * **Loading of Data:** Health-related data is loaded from a CSV file ('health_data.csv'). This could include various types of health data such as patient records, laboratory results, or environmental sensor readings.
 * **Anomaly Detection:** The BlindSight AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
 
-# **How it Works**
+## How it Works
 
 * **Data Loading:** The system loads health-related data from a CSV file into a pandas DataFrame.
 
@@ -97,10 +97,10 @@ main()
 
 * **Alert Generation:** Detected anomalies are flagged as potential health threats, and appropriate actions, such as alerting relevant stakeholders or triggering response protocols, can be initiated based on the severity of the anomalies.
 
-## **Data Sources and AI Methods:**
+## Data Sources and AI Methods
 BlindSight relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
 
-## **Challenges**
+## Challenges
 BlindSight faces several challenges in its implementation and deployment.
 
 * **Data Integration:** Ensuring seamless integration of data from disparate sources while maintaining data quality and integrity.
@@ -109,13 +109,13 @@ BlindSight faces several challenges in its implementation and deployment.
 
 * **Ethical Considerations:** Addressing privacy concerns and ensuring ethical use of sensitive health data in compliance with regulations and standards.
   
-## **What's Next?**
+## What's Next?
 BlindSight has the potential to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technology infrastructure will be key to realizing BlindSight's full potential in safeguarding public health and national security.
 
-## **Acknowledgments**
+## Acknowledgments
 BlindSight draws inspiration from existing bio-surveillance initiatives such as HealthMap, ProMED, and the Global Health Security Agenda (GHSA). Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-surveillance and protect global health security. 
 
-# **References**
+## References
 
 **For the programming part:**
 
