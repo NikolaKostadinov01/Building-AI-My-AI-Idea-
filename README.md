@@ -15,10 +15,10 @@ University of Helsinki, FI
 ## **Summary:**
 BlindSight is an advanced bio-surveillance system empowered by artificial intelligence, aimed at early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, BlindSight provides actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
 
-**Background:**
+## **Background:**
 In an increasingly interconnected world, the threat of infectious diseases and bioterrorism demands proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, leading to delays in detection and response. BlindSight addresses these challenges by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The urgency of this topic is underscored by the now stagnant COVID-19 pandemic and the ever-present risk of bioterrorism incidents.
 
-**System Usage:**
+## **System Usage:**
 BlindSight serves as a critical tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize BlindSight to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly in diverse environments and situations, facilitating timely response and containment efforts in the face of emerging health threats.
 
 # **Prototype System Implementation**
@@ -109,7 +109,7 @@ main()
 
 * **Data Sources and AI Methods:** BlindSight relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
 
-# **Challenges**
+## **Challenges**
 
 BlindSight faces several challenges in its implementation and deployment.
 
@@ -119,10 +119,10 @@ BlindSight faces several challenges in its implementation and deployment.
 
 * **Ethical Considerations:** Addressing privacy concerns and ensuring ethical use of sensitive health data in compliance with regulations and standards.
   
-# **What's Next?**
+## **What's Next?**
 BlindSight has the potential to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technology infrastructure will be key to realizing BlindSight's full potential in safeguarding public health and national security.
 
-# **Acknowledgments**
+## **Acknowledgments**
 BlindSight draws inspiration from existing bio-surveillance initiatives such as HealthMap, ProMED, and the Global Health Security Agenda (GHSA). Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-surveillance and protect global health security. 
 
 # **References**
