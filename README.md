@@ -149,6 +149,8 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 [6] [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/)
 
-[7] [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/)
+[7] [Johns Hopkins University - Center for Health Security](https://www.centerforhealthsecurity.org/)
 
-[8] [Johns Hopkins University - Center for Health Security](https://www.centerforhealthsecurity.org/)
+[8] [European Centre for Disease Prevention and Control (ECDC)](https://www.ecdc.europa.eu/)
+
+
