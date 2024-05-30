@@ -1,4 +1,5 @@
-# **BlindSight: AI-Powered Bio-Surveillance Solution**
+
+# AI-Powered Bio-Surveillance Solution
 
 **University of Helsinki, FI - Building AI - Course Project**
 
