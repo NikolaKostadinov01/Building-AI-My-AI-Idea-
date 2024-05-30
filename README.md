@@ -122,9 +122,9 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 * [1] [Python: The Python Software Foundation. (n.d.);](https://www.python.org/)
   
-* [2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830;](https://scikit-learn.org/)
+* [2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research;](https://scikit-learn.org/)
   
-* [3] [Isolation Forest algorithm: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining (pp. 413-422). IEEE. doi:10.1109/ICDM.2008.17.](http://www.lamda.nju.edu.cn/publication/icdm08b.pdf)
+* [3] [Isolation Forest algorithm: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining. IEEE. doi:10.1109/ICDM.2008.17.](http://www.lamda.nju.edu.cn/publication/icdm08b.pdf)
 
 **Everything else:**
 
