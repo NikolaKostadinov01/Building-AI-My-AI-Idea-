@@ -34,7 +34,7 @@ from sklearn.pipeline import Pipeline
 # This is a function for data preprocessing
 def preprocess_data(data):
 
-# Handle the missing values using mean imputation
+# Handling of the missing values using mean imputation
 imputer = SimpleImputer(strategy='mean')
 data_imputed = imputer.fit_transform(data)
     
@@ -65,7 +65,7 @@ def main():
 # Loading the data from CSV file
 data = pd.read_csv('health_data.csv')
     
-# Detect anomalies using BlindSight AI
+# Detection of anomalies using BlindSight AI
 anomalies = detect_anomalies(data)
     
 # Print a list of the detected anomalies
