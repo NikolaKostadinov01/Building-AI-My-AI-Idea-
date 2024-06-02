@@ -146,7 +146,7 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 **Everything else:**
 
-* [1] [ARUP;](https://www.arup.com/services/digital/artificial-intelligence-and-machine-learning)
+* [1] [Arup;](https://www.arup.com/services/digital/artificial-intelligence-and-machine-learning)
 
 * [2] [Oasys;](https://www.oasys-software.com/)
   
