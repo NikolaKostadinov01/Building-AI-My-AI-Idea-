@@ -129,9 +129,9 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 **Everything else:**
 
-* [1] [ProMED;](https://promedmail.org/)
-  
-* [2] [Nature;](https://www.nature.com/)
+* [1] [Nature;](https://www.nature.com/)
+
+* [2] [ProMED;](https://promedmail.org/)
 
 * [3] [HealthMap;](https://www.healthmap.org/)
 
