@@ -1,6 +1,6 @@
 # AI-Powered Bio-Surveillance Solution
 
-![](0.jpg)
+![](00.png)
 
 **University of Helsinki, FI - Building AI - Course Project**
 
@@ -8,6 +8,8 @@
 
 ## Summary:
 BlindSight is an advanced bio-surveillance system empowered by artificial intelligence, aimed at early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, BlindSight provides actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
+
+![](0.jpg)
 
 ## Background:
 In an increasingly interconnected world, the threat of infectious diseases and bioterrorism demands proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, leading to delays in detection and response. BlindSight addresses these challenges by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The urgency of this topic is underscored by the now stagnant COVID-19 pandemic and the ever-present risk of bioterrorism incidents.
