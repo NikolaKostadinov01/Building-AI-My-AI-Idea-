@@ -129,22 +129,28 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 **Everything else:**
 
-* [1] [Nature;](https://www.nature.com/)
+* [1] [ARUP](https://www.arup.com/services/digital/artificial-intelligence-and-machine-learning)
 
-* [2] [ProMED;](https://promedmail.org/)
+* [2] [Oasys](https://www.oasys-software.com/)
+  
+* [3] [Unipos](https://www.unipos.net/find/product_item.php?id=3281)
+  
+* [4] [Nature;](https://www.nature.com/)
 
-* [3] [HealthMap;](https://www.healthmap.org/)
+* [5] [ProMED;](https://promedmail.org/)
 
-* [4] [World Health Organization (WHO);](https://www.who.int/)
+* [6] [HealthMap;](https://www.healthmap.org/)
 
-* [5] [National Institutes of Health (NIH);](https://www.nih.gov/)
+* [7] [World Health Organization (WHO);](https://www.who.int/)
 
-* [6] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
+* [8] [National Institutes of Health (NIH);](https://www.nih.gov/)
 
-* [7] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
+* [9] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
 
-* [8] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
+* [10] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
 
-* [9] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
+* [11] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
+
+* [12] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
 
 
