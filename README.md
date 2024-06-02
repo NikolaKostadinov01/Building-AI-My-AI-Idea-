@@ -150,28 +150,26 @@ BlindSight draws inspiration from existing bio-surveillance initiatives such as 
 
 * [2] [Oasys;](https://www.oasys-software.com/)
   
-* [3] [Unipos;](https://www.unipos.net/find/product_item.php?id=3281)
-  
-* [4] [Nature;](https://www.nature.com/)
+* [3] [Nature;](https://www.nature.com/)
 
-* [5] [ProMED;](https://promedmail.org/)
+* [4] [ProMED;](https://promedmail.org/)
 
-* [6] [PubMed;](https://pubmed.ncbi.nlm.nih.gov/)
+* [5] [PubMed;](https://pubmed.ncbi.nlm.nih.gov/)
 
-* [7] [HealthMap;](https://www.healthmap.org/)
+* [6] [HealthMap;](https://www.healthmap.org/)
 
-* [8] [Cochrane Library;](https://www.cochranelibrary.com/)
+* [7] [Cochrane Library;](https://www.cochranelibrary.com/)
 
-* [9] [World Health Organization (WHO);](https://www.who.int/)
+* [8] [World Health Organization (WHO);](https://www.who.int/)
 
-* [10] [National Institutes of Health (NIH);](https://www.nih.gov/)
+* [9] [National Institutes of Health (NIH);](https://www.nih.gov/)
 
-* [11] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
+* [10] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
 
-* [12] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
+* [11] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
 
-* [13] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
+* [12] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
 
-* [14] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
+* [13] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
 
 
