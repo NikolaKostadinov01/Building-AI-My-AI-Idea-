@@ -100,7 +100,7 @@ main()
   
 3. **Example Usage:**
 * **Loading of Data:** Health-related data is loaded from a CSV file ('health_data.csv'). This could include various types of health data such as patient records, laboratory results, or environmental sensor readings.
-* **Anomaly Detection:** The 'BlindSight' AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
+* **Anomaly Detection:** The 'Chiron' AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
 
 ## How it Works
 
