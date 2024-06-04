@@ -7,7 +7,7 @@
 **[Course page](https://buildingai.elementsofai.com/)**
 
 ## Summary:
-'Chiron' is an advanced bio-surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, 'Chiron' provides actionable insights to healthcare professionals and security agencies, thereby enhancing preparedness and response capabilities.
+'Chiron' is an advanced bio-medical, and health hazard Surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, 'Chiron' provides actionable insights to healthcare professionals and security agencies, thereby enhancing medical care, preparedness and response capabilities.
 
 ![](0.jpg)
 
