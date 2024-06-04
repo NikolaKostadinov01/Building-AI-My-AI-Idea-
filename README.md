@@ -157,36 +157,36 @@ main()
 
 **For the programming part:**
 
-* [1] [Python: The Python Software Foundation. (n.d.);](https://www.python.org/)
+[1] [Python: The Python Software Foundation. (n.d.);](https://www.python.org/)
   
-* [2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research;](https://scikit-learn.org/)
+[2] [scikit-learn: Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research;](https://scikit-learn.org/)
   
-* [3] [Isolation Forest algorithm: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining. IEEE. doi:10.1109/ICDM.2008.17.](http://www.lamda.nju.edu.cn/publication/icdm08b.pdf)
+[3] [Isolation Forest algorithm: Liu, F. T., Ting, K. M., & Zhou, Z. H. (2008). Isolation forest. In Proceedings of the 2008 Eighth IEEE International Conference on Data Mining. IEEE. doi:10.1109/ICDM.2008.17.](http://www.lamda.nju.edu.cn/publication/icdm08b.pdf)
 
 **Everything else:**
 
-* [1] [Arup;](https://www.arup.com/services/digital/artificial-intelligence-and-machine-learning)
+[1] [Arup;](https://www.arup.com/services/digital/artificial-intelligence-and-machine-learning)
 
-* [2] [Oasys;](https://www.oasys-software.com/)
+[2] [Oasys;](https://www.oasys-software.com/)
   
-* [3] [Nature;](https://www.nature.com/)
+[3] [Nature;](https://www.nature.com/)
 
-* [4] [ProMED;](https://promedmail.org/)
+[4] [ProMED;](https://promedmail.org/)
 
-* [5] [PubMed;](https://pubmed.ncbi.nlm.nih.gov/)
+[5] [PubMed;](https://pubmed.ncbi.nlm.nih.gov/)
 
-* [6] [HealthMap;](https://www.healthmap.org/)
+[6] [HealthMap;](https://www.healthmap.org/)
 
-* [7] [Cochrane Library;](https://www.cochranelibrary.com/)
+[7] [Cochrane Library;](https://www.cochranelibrary.com/)
 
-* [8] [World Health Organization (WHO);](https://www.who.int/)
+[8] [World Health Organization (WHO);](https://www.who.int/)
 
-* [9] [National Institutes of Health (NIH);](https://www.nih.gov/)
+[9] [National Institutes of Health (NIH);](https://www.nih.gov/)
 
-* [10] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
+[10] [Global Health Security Agenda (GHSA);](https://www.ghsagenda.org/)
 
-* [11] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
+[11] [Centers for Disease Control and Prevention (CDC);](https://www.cdc.gov/)
 
-* [12] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
+[12] [Johns Hopkins University - Center for Health Security;](https://www.centerforhealthsecurity.org/)
 
-* [13] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
+[13] [European Centre for Disease Prevention and Control (ECDC).](https://www.ecdc.europa.eu/)
