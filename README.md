@@ -7,18 +7,18 @@
 **[Course page](https://buildingai.elementsofai.com/)**
 
 ## Summary
-**Chiron** is an advanced bio-medical, and health hazard surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, **Chiron** provides actionable insights to healthcare professionals and security agencies, thereby enhancing medical care, preparedness and response capabilities.
+<p align="justify">*Chiron is an advanced bio-medical, and health hazard surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, **Chiron** provides actionable insights to healthcare professionals and security agencies, thereby enhancing medical care, preparedness and response capabilities.
 
 ![](0.jpg)
 
 ## Background
-In an increasingly interconnected global environment, the threat posed by infectious diseases and bioterrorism necessitates proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, resulting in significant delays in detection and response. **Chiron** addresses these limitations by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The critical importance of this issue is underscored by the recent COVID-19 pandemic and the persistent risk of bioterrorism incidents.
+<p align="justify">In an increasingly interconnected global environment, the threat posed by infectious diseases and bioterrorism necessitates proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, resulting in significant delays in detection and response. *Chiron addresses these limitations by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The critical importance of this issue is underscored by the recent COVID-19 pandemic and the persistent risk of bioterrorism incidents.
 
 ![](6.png)
 
 ## How is it used? (Application)
 
-**Chiron** serves as a pivotal tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize **Chiron** to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly across diverse environments, facilitating timely response and containment efforts in the face of emerging health threats.
+<p align="justify">*Chiron serves as a pivotal tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize **Chiron** to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly across diverse environments, facilitating timely response and containment efforts in the face of emerging health threats.
 
 ![](2.png)
 
@@ -26,13 +26,16 @@ In an increasingly interconnected global environment, the threat posed by infect
 
 ## Prototype System Implementation
 
-**Chiron's** prototype system is built using the Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
+*<p align="justify">*Chiron's prototype system is built using the Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
 
-* **Data Preprocessing:** The system reads in data from a CSV file containing health-related data, such as patient records or laboratory results. The data is then preprocessed to handle missing values, normalize features, and ensure compatibility with the Isolation Forest algorithm.
+* **Data Preprocessing:**
+<p align="justify">The system reads in data from a CSV file containing health-related data, such as patient records or laboratory results. The data is then preprocessed to handle missing values, normalize features, and ensure compatibility with the Isolation Forest algorithm.
 
-* **Anomaly Detection:** The Isolation Forest algorithm is applied to the preprocessed data to identify anomalous instances that deviate significantly from the norm. Anomalies are flagged as potential indicators of emerging health threats and warrant further investigation by healthcare professionals and security analysts.
+* **Anomaly Detection:**
+<p align="justify">The Isolation Forest algorithm is applied to the preprocessed data to identify anomalous instances that deviate significantly from the norm. Anomalies are flagged as potential indicators of emerging health threats and warrant further investigation by healthcare professionals and security analysts.
 
-* **Alert Generation:** Upon detecting anomalies, the system generates alerts to notify relevant stakeholders, such as public health agencies or security organizations. Alerts may include information about the detected anomalies, their severity, and recommended actions for response and containment.
+* **Alert Generation:**
+<p align="justify">Upon detecting anomalies, the system generates alerts to notify relevant stakeholders, such as public health agencies or security organizations. Alerts may include information about the detected anomalies, their severity, and recommended actions for response and containment.
   
 ## Implementation Code
 
