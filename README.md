@@ -130,11 +130,23 @@ main()
 
 * **Ethical Considerations:** Addressing privacy concerns and ensuring ethical use of sensitive health data in compliance with regulations and standards.
   
+* **Scalability and Performance:** Scaling the system requires robust infrastructure and optimization for real-time data processing, ensuring timely alerts as the system expands to handle larger volumes of data.
+  
+* **Interoperability and Integration:** Achieving seamless integration with existing systems necessitates adherence to industry standards and protocols, addressing compatibility challenges to ensure interoperability.
+
+* **User Adoption and Design:** Providing comprehensive training, support, and a user-friendly interface is essential to facilitate effective use and widespread adoption of the system among healthcare professionals and analysts.
+
+* **Cost and Resource Management:** Securing sufficient funding and efficiently managing resources are critical for the development, deployment, and maintenance of the system, ensuring sustainability and long-term success.
+
+* **Regulatory Compliance:** Navigating the complex regulatory landscape governing health data and AI technology is necessary to ensure compliance with legal requirements and obtain necessary certifications and approvals for deployment.
+  
 ## What's Next? (Future Directions)
 'Chiron' aspires to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technological infrastructure will be critical to realizing the full potential of 'BlindSight' in safeguarding public health and national security.
 
 ## Acknowledgments
-'Chiron' draws inspiration from existing bio-surveillance initiatives such as HealthMap, ProMED, and the Global Health Security Agenda (GHSA). Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-surveillance and protect global health security.
+'Chiron' draws inspiration from existing bio-medical, technology and surveillance initiatives such as ProMED, Arup , WHO, HealthMap, CDC and the Global Health Security Agenda (GHSA). The references mentioned below recognize the contributions of various data sources that have influenced the development of 'Chiron.' These sources have helped establish a foundation for the system's work in bio-surveillance and health security.
+
+**Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-medicine and protect global health security.**
 
 ## References
 
