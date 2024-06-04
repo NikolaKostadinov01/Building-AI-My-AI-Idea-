@@ -7,18 +7,18 @@
 **[Course page](https://buildingai.elementsofai.com/)**
 
 ## Summary:
-'Chiron' is an advanced bio-medical, and health hazard surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, 'Chiron' provides actionable insights to healthcare professionals and security agencies, thereby enhancing medical care, preparedness and response capabilities.
+**Chiron** is an advanced bio-medical, and health hazard surveillance system powered by artificial intelligence, designed to enable early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, **Chiron** provides actionable insights to healthcare professionals and security agencies, thereby enhancing medical care, preparedness and response capabilities.
 
 ![](0.jpg)
 
 ## Background:
-In an increasingly interconnected global environment, the threat posed by infectious diseases and bioterrorism necessitates proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, resulting in significant delays in detection and response. 'Chiron' addresses these limitations by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The critical importance of this issue is underscored by the recent COVID-19 pandemic and the persistent risk of bioterrorism incidents.
+In an increasingly interconnected global environment, the threat posed by infectious diseases and bioterrorism necessitates proactive surveillance and intervention measures. Traditional surveillance methods often struggle to cope with the scale and complexity of modern health threats, resulting in significant delays in detection and response. **Chiron** addresses these limitations by leveraging AI to analyze diverse data sources and identify potential health threats in real-time. The critical importance of this issue is underscored by the recent COVID-19 pandemic and the persistent risk of bioterrorism incidents.
 
 ![](6.png)
 
 ## How is it used? (Application)
 
-'Chiron' serves as a pivotal tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize 'Chiron' to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly across diverse environments, facilitating timely response and containment efforts in the face of emerging health threats.
+**Chiron** serves as a pivotal tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize **Chiron** to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly across diverse environments, facilitating timely response and containment efforts in the face of emerging health threats.
 
 ![](2.png)
 
@@ -26,7 +26,7 @@ In an increasingly interconnected global environment, the threat posed by infect
 
 ## Prototype System Implementation
 
-'Chiron's' prototype system is built using the Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
+**Chiron's** prototype system is built using the Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
 
 * **Data Preprocessing:** The system reads in data from a CSV file containing health-related data, such as patient records or laboratory results. The data is then preprocessed to handle missing values, normalize features, and ensure compatibility with the Isolation Forest algorithm.
 
@@ -100,7 +100,7 @@ main()
   
 3. **Example Usage:**
 * **Loading of Data:** Health-related data is loaded from a CSV file ('health_data.csv'). This could include various types of health data such as patient records, laboratory results, or environmental sensor readings.
-* **Anomaly Detection:** The 'Chiron' AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
+* **Anomaly Detection:** The **Chiron** AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
 
 ## How it Works
 
@@ -117,12 +117,12 @@ main()
 ![](5.png)
 
 ## Data Sources and AI Methods
-'Chiron' relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. Advanced AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these diverse data sources, facilitating the early detection of potential health threats.
+**Chiron** relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. Advanced AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these diverse data sources, facilitating the early detection of potential health threats.
 
 ![](3.png)
 
 ## Challenges
-'Chiron' faces several challenges in its implementation and deployment.
+**Chiron** faces several challenges in its implementation and deployment.
 
 * **Data Integration:** Ensuring seamless integration of data from disparate sources while maintaining data quality and integrity.
 
@@ -141,10 +141,10 @@ main()
 * **Regulatory Compliance:** Navigating the complex regulatory landscape governing health data and AI technology is necessary to ensure compliance with legal requirements and obtain necessary certifications and approvals for deployment.
   
 ## What's Next? (Future Directions)
-'Chiron' aspires to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technological infrastructure will be critical to realizing the full potential of 'BlindSight' in safeguarding public health and national security.
+**Chiron** aspires to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technological infrastructure will be critical to realizing the full potential of **Chiron** in safeguarding public health and national security.
 
 ## Acknowledgments
-'Chiron' draws inspiration from existing bio-medical, technology and surveillance initiatives such as ProMED, Arup, WHO, HealthMap, CDC and the Global Health Security Agenda (GHSA). The references mentioned below recognize the contributions of various data sources that have influenced the development of 'Chiron.' These sources have helped establish a foundation for the system's work in healthcare, bio-surveillance and health security.
+**Chiron** draws inspiration from existing bio-medical, technology and surveillance initiatives such as ProMED, Arup, WHO, HealthMap, CDC and the Global Health Security Agenda (GHSA). The references mentioned below recognize the contributions of various data sources that have influenced the development of **Chiron.** These sources have helped establish a foundation for the system's work in healthcare, bio-surveillance and health security.
 
 **Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-medicine and protect global health security.**
 
