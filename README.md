@@ -144,7 +144,7 @@ main()
 'Chiron' aspires to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technological infrastructure will be critical to realizing the full potential of 'BlindSight' in safeguarding public health and national security.
 
 ## Acknowledgments
-'Chiron' draws inspiration from existing bio-medical, technology and surveillance initiatives such as ProMED, Arup , WHO, HealthMap, CDC and the Global Health Security Agenda (GHSA). The references mentioned below recognize the contributions of various data sources that have influenced the development of 'Chiron.' These sources have helped establish a foundation for the system's work in bio-surveillance and health security.
+'Chiron' draws inspiration from existing bio-medical, technology and surveillance initiatives such as ProMED, Arup, WHO, HealthMap, CDC and the Global Health Security Agenda (GHSA). The references mentioned below recognize the contributions of various data sources that have influenced the development of 'Chiron.' These sources have helped establish a foundation for the system's work in healthcare, bio-surveillance and health security.
 
 **Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-medicine and protect global health security.**
 
