@@ -1,4 +1,4 @@
-# AI-Powered Bio-Surveillance Solution
+# AI-Powered Bio-Medical & Health hazard Surveillance Solution
 
 ![](00.png)
 
