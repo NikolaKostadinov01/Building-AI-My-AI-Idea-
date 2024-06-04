@@ -34,7 +34,7 @@ In an increasingly interconnected global environment, the threat posed by infect
 
 * **Alert Generation:** Upon detecting anomalies, the system generates alerts to notify relevant stakeholders, such as public health agencies or security organizations. Alerts may include information about the detected anomalies, their severity, and recommended actions for response and containment.
   
-* ##Implementation Code##
+* ## Implementation Code ##
 
 ```
 # Importing of the necessary libraries
