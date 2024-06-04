@@ -7,7 +7,7 @@
 **[Course page](https://buildingai.elementsofai.com/)**
 
 ## Summary:
-BlindSight is an advanced bio-surveillance system empowered by artificial intelligence, aimed at early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, BlindSight provides actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
+'BlindSight' is an advanced bio-surveillance system empowered by artificial intelligence, aimed at early detection and rapid response to emerging public health threats. By integrating sophisticated data analytics and machine learning algorithms, 'BlindSight' provides actionable insights to healthcare professionals and security agencies, enhancing preparedness and response capabilities.
 
 ![](0.jpg)
 
@@ -18,7 +18,7 @@ In an increasingly interconnected world, the threat of infectious diseases and b
 
 ## How is it used?
 
-BlindSight serves as a critical tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize BlindSight to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly in diverse environments and situations, facilitating timely response and containment efforts in the face of emerging health threats.
+'BlindSight' serves as a critical tool for public health agencies, medical institutions, and security organizations, providing continuous monitoring and alerting capabilities. Healthcare professionals, epidemiologists, and security analysts utilize 'BlindSight' to analyze data from various sources, including healthcare records, laboratory results, environmental sensors, and global disease surveillance networks. The system operates seamlessly in diverse environments and situations, facilitating timely response and containment efforts in the face of emerging health threats.
 
 ![](2.png)
 
@@ -26,7 +26,7 @@ BlindSight serves as a critical tool for public health agencies, medical institu
 
 ## Prototype System Implementation
 
-BlindSight's prototype system is built using Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
+'BlindSight's' prototype system is built using Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
 
 * **Data Preprocessing:** The system reads in data from a CSV file containing health-related data, such as patient records or laboratory results. The data is then preprocessed to handle missing values, normalize features, and ensure compatibility with the Isolation Forest algorithm.
 
@@ -98,7 +98,7 @@ main()
   
 3. **Example Usage:**
 * **Loading of Data:** Health-related data is loaded from a CSV file ('health_data.csv'). This could include various types of health data such as patient records, laboratory results, or environmental sensor readings.
-* **Anomaly Detection:** The BlindSight AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
+* **Anomaly Detection:** The 'BlindSight' AI system is invoked to detect anomalies in the loaded dataset. Anomalies are instances that deviate significantly from the norm and may indicate potential health threats.
 
 ## How it Works
 
@@ -115,12 +115,12 @@ main()
 ![](5.png)
 
 ## Data Sources and AI Methods
-BlindSight relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
+'BlindSight' relies on a diverse array of data sources, including structured and unstructured data from healthcare systems, environmental sensors, social media, and global disease surveillance networks. AI techniques such as machine learning, anomaly detection algorithms (e.g., Isolation Forest), and natural language processing are employed to analyze and interpret these data sources, enabling the early detection of potential health threats.
 
 ![](3.png)
 
 ## Challenges
-BlindSight faces several challenges in its implementation and deployment.
+'BlindSight' faces several challenges in its implementation and deployment.
 
 * **Data Integration:** Ensuring seamless integration of data from disparate sources while maintaining data quality and integrity.
 
@@ -129,10 +129,10 @@ BlindSight faces several challenges in its implementation and deployment.
 * **Ethical Considerations:** Addressing privacy concerns and ensuring ethical use of sensitive health data in compliance with regulations and standards.
   
 ## What's Next?
-BlindSight has the potential to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technology infrastructure will be key to realizing BlindSight's full potential in safeguarding public health and national security.
+'BlindSight' has the potential to evolve into a comprehensive global bio-surveillance network, incorporating advanced features such as real-time genomic sequencing, mobile health monitoring, and predictive analytics. Continued collaboration with international partners, ongoing research and development efforts, and investment in technology infrastructure will be key to realizing BlindSight's full potential in safeguarding public health and national security.
 
 ## Acknowledgments
-BlindSight draws inspiration from existing bio-surveillance initiatives such as HealthMap, ProMED, and the Global Health Security Agenda (GHSA). Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-surveillance and protect global health security. 
+'BlindSight' draws inspiration from existing bio-surveillance initiatives such as HealthMap, ProMED, and the Global Health Security Agenda (GHSA). Special thanks to the healthcare professionals, researchers, and technology partners working tirelessly to advance the field of bio-surveillance and protect global health security.
 
 ## References
 
