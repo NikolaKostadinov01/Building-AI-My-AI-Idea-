@@ -26,7 +26,7 @@ In an increasingly interconnected global environment, the threat posed by infect
 
 ## Prototype System Implementation
 
-'BlindSight's' prototype system is built using Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
+'BlindSight's' prototype system is built using the Python programming language and leverages the scikit-learn library for implementing an anomaly detection algorithm. Specifically, the Isolation Forest algorithm is utilized due to its effectiveness in detecting anomalies in high-dimensional datasets. The implementation involves the following steps:
 
 * **Data Preprocessing:** The system reads in data from a CSV file containing health-related data, such as patient records or laboratory results. The data is then preprocessed to handle missing values, normalize features, and ensure compatibility with the Isolation Forest algorithm.
 
