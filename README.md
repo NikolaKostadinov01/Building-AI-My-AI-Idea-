@@ -1,4 +1,4 @@
-# AI Bio-Medical & Health hazard Surveillance Solution
+# AI Bio-Medical & Health Hazard Surveillance Solution
 
 ![](00.png)
 
