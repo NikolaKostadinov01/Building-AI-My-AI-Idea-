@@ -77,7 +77,6 @@ logging.info(f"Attempting to load data from {file_path}")
 if not os.path.exists(file_path):
 logging.error(f"File not found: {file_path}")
 raise FileNotFoundError(f"File {file_path} not found.")
-    
 data = pd.read_csv(file_path)
 logging.info("Data successfully loaded")
 return data
@@ -110,8 +109,7 @@ logging.info("Timestamp features (Year, Month, Day) created")
 numeric_columns = data.select_dtypes(include=['float64', 'int64']).columns
 data[numeric_columns] = data[numeric_columns].apply(
 lambda x: pd.to_numeric(x, errors='coerce')
-)
-    
+) 
 logging.info("Feature engineering completed")
 return data
 
@@ -132,7 +130,6 @@ Returns:
 - processed_data: np.ndarray, preprocessed data ready for models.
 """
 logging.info("Starting data preprocessing pipeline")
-
 if not categorical_cols:
 categorical_cols = data.select_dtypes(include=['object', 'category']).columns
 if not numerical_cols:
@@ -160,7 +157,6 @@ transformer = ColumnTransformer([
 ('scaler', scaler)
 ]), numerical_cols)
 ])
-
 processed_data = transformer.fit_transform(data)
 
 # Dimensionality Reduction
@@ -168,7 +164,6 @@ if pca_components:
 pca = PCA(n_components=pca_components)
 processed_data = pca.fit_transform(processed_data)
 logging.info(f"Applied PCA: reduced data to {pca_components} components")
-
 logging.info("Data preprocessing completed")
 return processed_data
 
@@ -192,16 +187,13 @@ contamination=contamination,
 random_state=random_state
 )
 model.fit(data)
-
 predictions = model.predict(data)
 scores = model.decision_function(data)
-
 anomalies = pd.DataFrame({
 'Index': np.arange(len(predictions)),
 'Prediction': predictions,
 'Anomaly_Score': scores
 }).query('Prediction == -1')  # Filter anomalies
-
 logging.info(f"Anomalies detected: {len(anomalies)} instances")
 return anomalies
 
@@ -209,7 +201,6 @@ return anomalies
 def export_results(anomalies, output_file='detected_anomalies.json'):
 """
 Save anomaly detection results to a file.
-
 Parameters:
 - anomalies: pd.DataFrame, detected anomalies.
 - output_file: str, file path to save results.
