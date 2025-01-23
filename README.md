@@ -39,57 +39,228 @@
 ## Implementation Code
 
 ```
-# Importing of the necessary libraries
+# Importing Required Libraries
 import pandas as pd
+import numpy as np
 from sklearn.ensemble import IsolationForest
-from sklearn.preprocessing import StandardScaler
-from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler, OneHotEncoder
+from sklearn.impute import SimpleImputer, KNNImputer
 from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.decomposition import PCA
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, precision_score, recall_score
+from datetime import datetime
+import logging
+import json
+import os
 
-# This is a function for data preprocessing
-def preprocess_data(data):
+# Configure Logging for Transparency and Debugging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filename='health_hazard_surveillance.log',
+    filemode='w'
+)
 
-# Handling of the missing values using mean imputation
-imputer = SimpleImputer(strategy='mean')
-data_imputed = imputer.fit_transform(data)
-    
-# Normalization features using standard scaler
-scaler = StandardScaler()
-data_scaled = scaler.fit_transform(data_imputed)
-    
-return data_scaled
+# Function: Load Data
+def load_data(file_path):
+    """
+    Load dataset from a file.
 
-# Function to detect anomalies using Isolation Forest algorithm
-def detect_anomalies(data):
+    Parameters:
+    - file_path: str, path to the dataset.
 
-# Preprocessing of the data
-data_processed = preprocess_data(data)
+    Returns:
+    - data: pd.DataFrame, loaded dataset.
+    """
+    logging.info(f"Attempting to load data from {file_path}")
+    if not os.path.exists(file_path):
+        logging.error(f"File not found: {file_path}")
+        raise FileNotFoundError(f"File {file_path} not found.")
     
-# Fitting of the Isolation Forest model
-model = IsolationForest()
-model.fit(data_processed)
-    
-# Predicting anomalies
-nomalies = model.predict(data_processed)
-    
-return anomalies
+    data = pd.read_csv(file_path)
+    logging.info("Data successfully loaded")
+    return data
 
-# Example usage
+# Function: Feature Engineering
+def feature_engineering(data):
+    """
+    Create derived features and clean invalid values.
+
+    Parameters:
+    - data: pd.DataFrame, input dataset.
+
+    Returns:
+    - enhanced_data: pd.DataFrame, dataset with new features.
+    """
+    logging.info("Starting feature engineering")
+    
+    # Example Derived Features
+    if 'Height' in data.columns and 'Weight' in data.columns:
+        data['BMI'] = data['Weight'] / (data['Height'] / 100) ** 2
+        logging.info("BMI feature created")
+
+    if 'Timestamp' in data.columns:
+        data['Year'] = pd.to_datetime(data['Timestamp']).dt.year
+        data['Month'] = pd.to_datetime(data['Timestamp']).dt.month
+        data['Day'] = pd.to_datetime(data['Timestamp']).dt.day
+        logging.info("Timestamp features (Year, Month, Day) created")
+
+    # Fill invalid numerical data with NaN for further processing
+    numeric_columns = data.select_dtypes(include=['float64', 'int64']).columns
+    data[numeric_columns] = data[numeric_columns].apply(
+        lambda x: pd.to_numeric(x, errors='coerce')
+    )
+    
+    logging.info("Feature engineering completed")
+    return data
+
+# Function: Preprocessing Pipeline
+def preprocess_data(data, categorical_cols=None, numerical_cols=None, imputation_strategy='knn', scaler_type='standard', pca_components=None):
+    """
+    Preprocess input data by handling missing values, scaling, and dimensionality reduction.
+
+    Parameters:
+    - data: pd.DataFrame, input data.
+    - categorical_cols: list, categorical columns for encoding.
+    - numerical_cols: list, numerical columns for imputation/scaling.
+    - imputation_strategy: str, missing value imputation method ('mean', 'median', 'knn').
+    - scaler_type: str, scaling method ('standard', 'minmax', 'robust').
+    - pca_components: int, number of components for PCA.
+
+    Returns:
+    - processed_data: np.ndarray, preprocessed data ready for models.
+    """
+    logging.info("Starting data preprocessing pipeline")
+
+    if not categorical_cols:
+        categorical_cols = data.select_dtypes(include=['object', 'category']).columns
+    if not numerical_cols:
+        numerical_cols = data.select_dtypes(include=['float64', 'int64']).columns
+
+    # Imputation
+    if imputation_strategy == 'knn':
+        imputer = KNNImputer(n_neighbors=5)
+    else:
+        imputer = SimpleImputer(strategy=imputation_strategy)
+
+    # Scaling
+    scalers = {
+        'standard': StandardScaler(),
+        'minmax': MinMaxScaler(),
+        'robust': RobustScaler()
+    }
+    scaler = scalers.get(scaler_type, StandardScaler())
+
+    # Encoding and Transformation Pipeline
+    transformer = ColumnTransformer([
+        ('categorical', OneHotEncoder(handle_unknown='ignore', sparse_output=False), categorical_cols),
+        ('numerical', Pipeline([
+            ('imputer', imputer),
+            ('scaler', scaler)
+        ]), numerical_cols)
+    ])
+
+    processed_data = transformer.fit_transform(data)
+
+    # Dimensionality Reduction
+    if pca_components:
+        pca = PCA(n_components=pca_components)
+        processed_data = pca.fit_transform(processed_data)
+        logging.info(f"Applied PCA: reduced data to {pca_components} components")
+
+    logging.info("Data preprocessing completed")
+    return processed_data
+
+# Function: Anomaly Detection
+def detect_anomalies(data, contamination=0.05, random_state=42):
+    """
+    Detect anomalies using Isolation Forest.
+
+    Parameters:
+    - data: np.ndarray, preprocessed data.
+    - contamination: float, expected anomaly rate in the data.
+    - random_state: int, seed for reproducibility.
+
+    Returns:
+    - anomalies: pd.DataFrame, containing indices and scores of anomalies.
+    """
+    logging.info("Starting anomaly detection with Isolation Forest")
+    model = IsolationForest(
+        n_estimators=200,
+        contamination=contamination,
+        random_state=random_state
+    )
+    model.fit(data)
+
+    predictions = model.predict(data)
+    scores = model.decision_function(data)
+
+    anomalies = pd.DataFrame({
+        'Index': np.arange(len(predictions)),
+        'Prediction': predictions,
+        'Anomaly_Score': scores
+    }).query('Prediction == -1')  # Filter anomalies
+
+    logging.info(f"Anomalies detected: {len(anomalies)} instances")
+    return anomalies
+
+# Function: Export Results
+def export_results(anomalies, output_file='detected_anomalies.json'):
+    """
+    Save anomaly detection results to a file.
+
+    Parameters:
+    - anomalies: pd.DataFrame, detected anomalies.
+    - output_file: str, file path to save results.
+
+    Returns:
+    - None
+    """
+    logging.info(f"Saving anomalies to {output_file}")
+    anomalies.to_json(output_file, orient='records', lines=True)
+    logging.info("Results successfully saved")
+
+# Main Execution Function
 def main():
+    """
+    Main function for executing the AI Bio-Medical & Health Hazard Surveillance System.
+    """
+    logging.info("Starting AI Health Hazard Surveillance System")
 
-# Loading the data from CSV file
-data = pd.read_csv('health_data.csv')
-    
-# Detection of anomalies using Chiron AI
-anomalies = detect_anomalies(data)
-    
-# Print a list of the detected anomalies
-print("Detected anomalies:", anomalies)
+    # Load Data
+    data_path = 'health_data.csv'
+    data = load_data(data_path)
 
-# Execute main function
+    # Feature Engineering
+    data = feature_engineering(data)
+
+    # Preprocessing
+    categorical_cols = ['Gender', 'Disease_Type']
+    numerical_cols = ['Age', 'Height', 'Weight', 'Heart_Rate']
+    processed_data = preprocess_data(
+        data,
+        categorical_cols=categorical_cols,
+        numerical_cols=numerical_cols,
+        imputation_strategy='knn',
+        scaler_type='standard',
+        pca_components=10
+    )
+
+    # Detect Anomalies
+    anomalies = detect_anomalies(processed_data, contamination=0.02)
+
+    # Export Anomalies
+    export_results(anomalies, output_file='detected_anomalies.json')
+
+    logging.info("System execution completed")
+    print(f"Anomalies saved to 'detected_anomalies.json':\n{anomalies}")
+
+# Run the System
 if __name__ == "__main__":
-main()
-```
+    main()
+
 ## System Explanation
 
 1. **Data Preprocessing**
